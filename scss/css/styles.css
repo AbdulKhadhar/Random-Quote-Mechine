@@ -44,6 +44,7 @@ body {
   padding: 40px 50px;
   display: table;
   background-color: #fff;
+  box-shadow: 5px 5px #9898df, 10px 10px #d3a4a4, 15px 15px #67a367;
 }
 #quote-box .quote-text {
   text-align: center;
