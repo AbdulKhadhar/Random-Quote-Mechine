@@ -4,18 +4,14 @@ let quotesData;
 
 
 var colors = [
-  '#16a085',
-  '#27ae60',
-  '#2c3e50',
-  '#f39c12',
-  '#e74c3c',
-  '#9b59b6',
-  '#FB6964',
-  '#342224',
-  '#472E32',
-  '#BDBB99',
-  '#77B1A9',
-  '#73A857'
+  '#34568B',
+  '#6B5B95',
+  '#88B04B',
+  '#955251',
+  '#009B77',
+  '#5B5EA6',
+  '#BC243C',
+  '#E15D44'
 ];
 var currentQuote = '',
   currentAuthor = '';
@@ -67,14 +63,7 @@ function getQuote() {
     $('#author').html(randomQuote.author);
   });
 
-  var color = Math.floor(Math.random() * colors.length);
-  $('html body').animate(
-    {
-      backgroundColor: colors[color],
-      color: colors[color]
-    },
-    1000
-  );
+
   $('.button').animate(
     {
       backgroundColor: colors[color]
